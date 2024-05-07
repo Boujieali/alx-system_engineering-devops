@@ -38,7 +38,7 @@ frontend Boujieali-tech-frontend
     bind *:80
     default_backend Boujieali-tech-backend
 
-backend clickviral-tech-backend
+backend Boujieali-tech-backend
     balance roundrobin
     server 490921-web-01 54.174.134.233:80 check
     server 490921-web-02 3.84.255.234:80 check
